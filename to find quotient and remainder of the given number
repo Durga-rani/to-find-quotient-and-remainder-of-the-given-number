@@ -1,0 +1,16 @@
+//quotient and remainder of the given number
+
+#include<stdio.h>
+int main()
+{
+  int n=8,m=5,s,d;
+
+ {
+    s=n/m;
+    d=n%m;
+    printf("qut=%d\nrem=%d",s,d);
+ }
+}
+Output:
+qut=1
+rem=3
